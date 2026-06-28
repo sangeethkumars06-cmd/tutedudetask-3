@@ -1,0 +1,51 @@
+
+body{
+    background-color: orange;
+}
+
+.head{
+    color: darkblue;
+}
+span{
+    color: red;
+}
+#bglime{
+    background-color: lime;
+}
+p{
+    color: white;
+}
+#para{
+    color: green;
+}
+span.word{
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+a{
+    color: white;
+}
+ section:nth-of-type(2) li:first-child span {
+    color: green;
+    background-color: yellow;
+}
+
+section:nth-of-type(2) li:last-child span {
+    color: blue;
+    background-color: purple;
+}
+
+
+ul{
+    color: white;
+}
+ol{
+    color: black;
+}
+ol :nth-child(2){
+    color: blue;
+}
+ol :nth-child(3){
+    color: red;
+}
